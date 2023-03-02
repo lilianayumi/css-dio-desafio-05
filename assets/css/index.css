@@ -1,6 +1,5 @@
 @import url(global.css);
 
-/* Header */
 header {
     width: 100%;
     margin-top: 150px;
@@ -51,7 +50,6 @@ header::after {
     bottom: 0;
     background: linear-gradient(0deg, var(--primary-color), transparent);
 }
-/* Subscription */
 #subscription {
     scroll-margin-top: 150px;
 }
@@ -73,7 +71,6 @@ header::after {
     flex-direction: column;
     justify-content: space-between;
 }
-
 .subscription-plan {
     display: flex;
     flex-direction: column;
@@ -93,7 +90,6 @@ header::after {
     content: "+";
     margin-left: 8px;
 }
-/* Contents */
 .contents {
     margin: 100px auto;
     display: flex;
@@ -123,6 +119,7 @@ header::after {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--secondary-color);
 }
+
 @media screen and (min-width:480px){
     ::-webkit-scrollbar {
         width: 8px;
@@ -198,12 +195,14 @@ header::after {
         background-image: url("../images/UCL-Hover.webp");
     }
 }
+
 @media screen and (min-width:800px) {
     .card-container {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2,1fr);
     }
 }
+
 @media screen and (min-width:1200px) {
     .subscription-plans {
         display: flex;
@@ -212,6 +211,7 @@ header::after {
         gap: 80px;
     }
 }
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;

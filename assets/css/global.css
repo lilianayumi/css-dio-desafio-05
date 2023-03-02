@@ -145,6 +145,7 @@ footer p::before {
     justify-content: center;
     gap: 40px;
 }
+
 @media screen and (min-width:480px) {
     li {
         font-size: 1.25rem;
